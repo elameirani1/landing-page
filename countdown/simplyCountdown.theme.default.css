@@ -1,7 +1,7 @@
 .simply-countdown {
 	overflow:hidden;
 	display:table;
-	margin: 0 25px;
+	margin: 0 15px;
 	font-family:poppins;
 	color: #79155B;
 	font-size: 15px;
@@ -9,8 +9,8 @@
 	font-weight: 600;
 	}
 .simply-countdown > .simply-section {
-	width:30px;
-	height:30px;
+	width:25px;
+	height:25px;
 	padding:50px;
 	display:flex;
 	align-items:center;
