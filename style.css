@@ -200,9 +200,10 @@ nav.navbar ul li a:hover::after {
 	}
 }
 /*Tablet*/
-@media (max-width: 720px) {
+@media (max-width: 820px) {
 	* {
 		font-size: 80%;
+		box-sizing: border-box;
 	}
 	nav.navbar {
 		background-color: #FFCDA8;
@@ -247,6 +248,7 @@ nav.navbar ul li a:hover::after {
 	* {
 		font-size: 50%;
 		text-align: center;
+		box-sizing: border-box;
 	}
 	nav.navbar ul li a::after {
 		transform-origin: 0 1;
@@ -274,7 +276,7 @@ nav.navbar ul li a:hover::after {
 	}
 
 	.promo .row .simply-countdown {
-		margin: 0 65px;
+		padding-left: 58px;
 	}
 	.promo .simply-countdown> .simply-section {
 		justify-content: center;
