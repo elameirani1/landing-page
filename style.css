@@ -236,8 +236,7 @@ nav.navbar ul li a:hover::after {
 		width: 130%;
 	}
 	.promo {
-		margin-top: 180px;
-		height: 100%;
+		display: block;
 	}
 
 /*Mobile Phone*/
@@ -261,20 +260,23 @@ nav.navbar ul li a:hover::after {
 	}
 
 	.product img {
-		width: 40%;
+		width: 70%;
 	}
-
 	.promo {
 		justify-content: center;
-		height: 100%;
 	}
 	.promo img {
 		width: 50%;
 		align-items: center;
 	}
-	.simply-countdown> .simply-section {
+
+	.promo .simply-countdown {
+		margin-left:80px;
+	}
+	.promo .simply-countdown> .simply-section {
+		justify-content: center;
 		padding:20px;
-		margin: 3px;
+		margin: 5px;
 		font-size: 35px;
 	}
 	.promo button {
