@@ -125,8 +125,8 @@ nav.navbar ul li a:hover::after {
 
 .product {
 	position: relative;
-	margin-top: 25px;
-	height: 200px;
+	margin :25px 0;
+	
 }
 
 .product h2 {
@@ -158,11 +158,8 @@ nav.navbar ul li a:hover::after {
 	}
 
 .promo {
-	position: relative;
-	margin-top: 330px;
+	display: block;
 	background:#FED5E7;
-	height: 100%;
-	width: 100%;
 	}  
 
 /*.promo img {
