@@ -16,6 +16,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <!-- Feater Icons -->
   <script src="https://unpkg.com/feather-icons"></script>
+  <!-- simplyCountdown -->
+  <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css">
+  <script src="countdown/simplyCountdown.min.js"></script>
 </head>
 <body class>
   <!-- Navbar Start -->
@@ -82,13 +85,49 @@
        </div>
     </div>
     <button type="button" class=" btn btn-link btn-outline-purple my-3"><a href="#">Lihat Lainnya <i data-feather="arrow-right"></i></a></button>
+  </div>
   </section>
-</div>
 <!-- Product Section End -->
+<!-- Promo Section Start -->
+<section id="promo" class="promo">
+ <!--  <div class="container-fluid"> -->
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <img src="asset/img/modelpromo.png" alt="promo" class="ps-5">
+    </div>
+    <div class="col-md-6">
+      <div class="row py-5 px-5 ">
+    <h2>Hot Promo</h2>
+    <p>Nikmati Promo menarik  dengan Hoodie 
+yang membuat penmpilan anda semakin
+stylish.</p>
+    <img src="asset/img/Diskon.png" alt="diskon" class="diskon mx-auto">
+    <div class="simply-countdown"></div>
+    <button type="button" class="btn btn-beli">Beli Sekarang</button>
+    </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- Promo Section End -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!--Feather Icons  -->
   <script>
    feather.replace();
   </script>
+  <script>
+      simplyCountdown('.simply-countdown', {
+            year: 2024, // required
+            month: 02, // required
+            day: 20, // required
+            hours: 8, // Default is 0 [0-23] integer
+            words: {
+                days: { singular: 'hari', plural: 'hari' },
+                hours: { singular: 'jam', plural: 'jam' },
+                minutes: { singular: 'menit', plural: 'menit' },
+                seconds: { singular: 'detik', plural: 'detik' }
+            },   });
+    </script>
 </body>
 </html>
