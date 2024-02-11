@@ -133,6 +133,13 @@ nav.navbar ul li a:hover::after {
 	font-size: 20px;
 	letter-spacing: 3px;
 }
+
+.product p {
+	color: #000;
+	font-family: poppins;
+	font-size: 16px;
+	font-weight: 400;
+}
 .product button.btn-outline-purple {
 	border-radius: 5px;
 	border: 2px solid #79155B;
@@ -202,7 +209,9 @@ nav.navbar ul li a:hover::after {
 		font-size: 20px;
 		letter-spacing: 3px;
 	}
-
+	.accesories img {
+		width: 100%;
+	}
 	.accesories img.jam {
 		box-shadow: -8px 8px 0px 0px rgb(97, 100, 108);
 	}
@@ -213,12 +222,15 @@ nav.navbar ul li a:hover::after {
 		box-shadow: -8px 8px 0px 0px rgb(255, 236, 211);
 	}
 	.accesories p{
-		padding-top: 20px;
+		padding-top: 25px;
 		font-family: poppins;
+		font-size: 16px;
+		font-weight: 400;
 	}
 	.accesories p.price{
 		padding-top: 0px;
 	}
+
 	.accesories button.btn-outline-purple {
 		border-radius: 5px;
 		border: 2px solid #79155B;
@@ -265,10 +277,17 @@ nav.navbar ul li a:hover::after {
 		color: #79155B;
 		padding: 20px 8px;
 	}
+
+	footer .socials .size-24{
+		width: 24px;
+		height: 24px;
+	}
+	
 	footer .socials a:hover {
 		color: #fdc8c8;
 	}
 	footer span {
+		font-size: 14px;
 		color: #79155B;
 		padding-left: 5px;
 	}
@@ -381,3 +400,25 @@ nav.navbar ul li a:hover::after {
 	.promo button {
 		justify-content:center;
 	}
+	.accesories img {
+		width: 50%;
+	}
+	footer h2,h3 {
+		font-size:14px;
+		margin: 10px 0;
+	}
+	footer p {
+		margin: 10px 0;
+		font-size: 12px;
+		letter-spacing: 0px;
+	}
+	footer .input-group {
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+	}
+
+	footer .input-group.input-group-text {
+		width: 80%;
+	}
+	
