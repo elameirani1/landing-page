@@ -54,7 +54,6 @@ nav.navbar ul li a:hover::after {
 .hero{
 	display: block;
 	background:linear-gradient(180deg, rgba(255, 186, 134, 0.73) 0%, rgba(255, 186, 134, 0.33) 100%);
-	
 	}  
 .hero .row {
 	padding-top: 85px;
@@ -125,8 +124,7 @@ nav.navbar ul li a:hover::after {
 
 .product {
 	position: relative;
-	margin :25px 0;
-	
+	margin :25px 0;	
 }
 
 .product h2 {
@@ -139,6 +137,7 @@ nav.navbar ul li a:hover::after {
 	border-radius: 5px;
 	border: 2px solid #79155B;
 	background: #ffff;
+	box-shadow: 0px 5px 10px 1px rgba(121, 21, 91, 0.25);
 	color: #79155B;
 	font-family: poppins;
 	font-size: 14px;
@@ -191,7 +190,57 @@ nav.navbar ul li a:hover::after {
 	justify-content: center;
 }
 
+.accesories {
+	position: relative;
+	margin :30px 0;	
+	}
 
+	.accesories h2 {
+		margin-bottom: 20px;
+		color: #79155B;
+		font-family: 'Abril Fatface', serif;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+
+	.accesories img.jam {
+		box-shadow: -8px 8px 0px 0px rgb(97, 100, 108);
+	}
+	.accesories img.tas {
+		box-shadow: -8px 8px 0px 0px rgb(200, 211, 218);
+	}
+	.accesories img.sepatu {
+		box-shadow: -8px 8px 0px 0px rgb(255, 236, 211);
+	}
+	.accesories p{
+		padding-top: 20px;
+		font-family: poppins;
+	}
+	.accesories p.price{
+		padding-top: 0px;
+	}
+	.accesories button.btn-outline-purple {
+		border-radius: 5px;
+		border: 2px solid #79155B;
+		box-shadow: 0px 5px 10px 1px rgba(121, 21, 91, 0.25);
+		background: #ffff;
+		color: #79155B;
+		font-family: poppins;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.accesories button.btn-outline-purple a {
+		color: #79155B;
+		text-decoration: none;
+		}
+	.accesories button.btn-outline-purple:hover {
+		border: 2px solid #79155B;
+		background: #79155B;
+	}
+	.accesories button.btn-outline-purple a:hover {
+		color: #ffff;
+		}
 
 /*Laptop*/
 @media (max-width: 1200px) {
@@ -242,6 +291,8 @@ nav.navbar ul li a:hover::after {
 	.promo {
 		display: block;
 	}
+
+
 
 /*Mobile Phone*/
 @media (max-width: 480px) {
