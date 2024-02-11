@@ -241,6 +241,49 @@ nav.navbar ul li a:hover::after {
 	.accesories button.btn-outline-purple a:hover {
 		color: #ffff;
 		}
+	footer {
+		background-color: #F99793;
+		padding: 30px 0;
+	}
+	footer h2 {
+	color: #79155B;
+	font-family: 'Praise', cursive;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 3px;
+	}
+	footer p {
+	color: #79155B;
+	font-family: poppins
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 5.5px;
+	}
+	footer .socials a {
+		color: #79155B;
+		padding: 20px 8px;
+	}
+	footer .socials a:hover {
+		color: #fdc8c8;
+	}
+	footer span {
+		color: #79155B;
+		padding-left: 5px;
+	}
+	footer span.prov {
+		padding-left: 35px;
+	}
+	footer h3 {
+	color: #79155B;
+	font-family: poppins;
+	font-size: 16px;
+	font-weight: 700;
+	}
+	footer button.btn.btn-secondary {
+	background: #79155B;
+	}
 
 /*Laptop*/
 @media (max-width: 1200px) {
